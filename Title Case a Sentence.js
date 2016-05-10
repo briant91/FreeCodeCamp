@@ -3,7 +3,7 @@ function titleCase(str) {
   var splitter = str.split(" "); //Splits the string into arrays.
   var newArray;
   
-  for (i = 0; i < splitter.length; i++){ //i starts are array 0; for every array less than
+  for (i = 0; i < splitter.length; i++){ //i starts the array at 0; for every array less than
                                          // the total length of the array, repeat the loop.
     
    newArray = splitter[i].substring(1).toLowerCase(); //Miss out the first letter of the substring of 
